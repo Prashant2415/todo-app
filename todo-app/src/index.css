@@ -1,0 +1,17 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+
+body {
+    margin: 1rem 2rem;
+    min-width: 320px;
+    min-height: 90vh;
+    color: #ffffff;
+    background: #000000;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

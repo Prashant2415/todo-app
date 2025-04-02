@@ -1,0 +1,279 @@
+/*Left menu css*/
+.leftmenu-container{
+
+}
+.logo-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* margin-bottom: 2rem; */
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #3f3f3f;
+}
+.logo{
+    fill: #1DA1F2;
+}
+.logo-text{
+    font-size: 32px;
+    margin: 0;
+    font-weight: 600;
+}
+.leftmenu-link-container{
+    width: 16rem;
+}
+.nav-ul{
+    padding: 0;
+}
+.nav-li{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+.nav-li:hover{
+    background: #3f3f3f;
+    border-radius: 10px;
+}
+.active{
+    background: #3f3f3f;
+    border-radius: 10px;
+}
+.nav-links{
+    font-size: 20px;
+    color: #fff;
+    width: 10rem;
+    text-decoration: none;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+}
+.blue{
+    fill: #1DA1F2;
+}
+.yellow{
+    fill: yellow;
+}
+.green{
+    fill: green;
+}
+
+/*Template page css*/
+.template-container{
+    display: flex;
+}
+.main-container{
+    width: 100%;
+    border-left: 2px solid #232323;
+    background: #131313;
+}
+.content-container{
+    height: 76vh;
+    /* margin: 0 1rem; */
+    padding: 0px 40px 0px 6px;
+    overflow-y: auto;
+}
+.header-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 2px solid #3f3f3f;
+    background: #000;
+}
+.header-title{
+    margin: 0;
+    font-size: 32px;
+}
+.search-new-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.search-icon{
+    position: absolute;
+    justify-content: center;
+    right: 170px;
+    top: 44px;
+}
+.search-input{
+    padding: 12px;
+    width: 15rem;
+    background: #3f3f3f;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.addnew-button{
+    padding: 0.5rem;
+    background: #1DA1F2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.addnew-button:hover{
+    border: 1px solid #1DA1F2;
+    background: #fff;
+    color: #1DA1F2;
+}
+
+
+/*Home page css*/
+.home-container{
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); /* Responsive grid */
+    gap: 50px; /* Space between cards */
+    padding: 10px;
+}
+.card{
+    background: #000;
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 14px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px -3px;
+}
+.cardtitle-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.task-icon{
+    width: 30px;
+    height: 30px;
+    fill: #1DA1F2;
+}
+.card-title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.card-description{
+    font-size: 18px;
+    min-height: 3rem;
+    max-height: 4rem;
+}
+.card-button{
+    display: flex;
+    gap: 1rem;
+}
+.undone-icon{
+    fill: #3f3f3f;
+    width: 20px;
+    height: 20px;
+}
+.button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.remove-icon{
+    fill: red;
+    width: 20px;
+    height: 20px;
+}
+.edit-icon{
+    fill: #1DA1F2;
+    width: 20px;
+    height: 20px;
+}
+.page-subheading{
+    margin: 1rem;
+}
+.footer-container{
+
+}
+.footer-text{
+    padding: 1rem;
+}
+
+.dialog-container{
+    position: absolute;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.addnewtask-container{
+    width: 25rem;
+    padding: 1rem;
+    background: #131313;
+    box-shadow: 0px 1px 4px 1px;
+    border-radius: 1rem;
+    
+}
+.dialog-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dialog-title{
+
+}
+.cross-button{
+    background: transparent;
+    border: none;
+}
+.cross-icon{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+}
+.cross-icon:hover{
+    fill: #3f3f3f;
+}
+.dialog-form{
+
+}
+.dialog-input{
+    padding: 0.5rem;
+    width: 86%;
+    margin-bottom: 1rem;
+    background: #3f3f3f;
+    border: none;
+    color: #fff;
+    outline: 1px solid black;
+    font-size: 18px;
+}
+.dialog-addtask-button{
+    padding: 0.5rem 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    background: #1DA1F2;
+    color: #fff;
+    border-radius: 2rem;
+    border: none;
+}
+.dialog-addtask-button:hover{
+    border: 1px solid #1DA1F2;
+    background: #fff;
+    color: #1DA1F2;
+}
+
+.empty-container{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.empty-text{
+    font-size: 32px;
+}
+.iconcompleted{
+    fill: green;
+    width: 20px;
+    height: 20px;
+}
